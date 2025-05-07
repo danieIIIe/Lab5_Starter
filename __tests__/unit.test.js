@@ -61,7 +61,7 @@ test('valid date 1/1/2023', () => {
 test('invalid date 14/87/25', () => {
   expect(isDate('14/87/25')).toBe(false);
 });
-test('invalid date 13/32/2020', () => {
+test('invalid date 13/32/20', () => {
   expect(isDate('13/32/2020')).toBe(false);
 });
 
